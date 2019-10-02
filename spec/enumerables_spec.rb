@@ -3,7 +3,7 @@
 require_relative '../enumerables'
 
 describe Enumerable do
-  let (:arr) { [1, 2, 3] }
+  let(:arr) { [1, 2, 3] }
 
   describe '#my_select' do
     it 'returns an array containing items true to the condition set' do
